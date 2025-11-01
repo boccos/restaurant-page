@@ -1,0 +1,35 @@
+.page.about {
+  display: flex;
+  flex-direction: column;
+  padding: 5em;
+  gap: 1.5em;
+  background-color: rgb(255, 251, 234);
+}
+
+.page.about #title {
+  font-size: 36px;
+  color: #BC2326;
+  margin-bottom: 10px;
+}
+
+.page.about #info {
+  color: rgb(106, 106, 106);
+  line-height: 1.8;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.page.about div strong {
+  color: #BC2326;
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.page.about div p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}

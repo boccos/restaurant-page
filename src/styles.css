@@ -1,0 +1,107 @@
+body{
+  background-color: rgb(255, 251, 234);
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+button{
+  background: none;
+  border: none;
+  color: aliceblue;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: block;
+  top: 0;
+  width: 100%;
+  height: 50vh;
+  background: 
+    linear-gradient(rgba(255, 208, 166, 0.107), rgba(255, 208, 166, 0.107)), 
+    url('./imgs/sushibar.jpg');
+  background-position: center 10%;
+}
+
+
+.headerElements{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(149, 149, 149, 0.05))
+
+}
+
+#reserved{
+  cursor: not-allowed;
+}
+
+nav{
+    display: flex;
+    gap: 8em;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    padding-left: 12em;
+    padding-right: 16em;
+    cursor: pointer;
+}
+
+#content {
+  display: flex;
+  padding: 5em;
+  gap: 10em;
+}
+
+#food{
+  width: 50em;
+  height: 50em;
+}
+
+#mainContent{
+  display: flex;
+  flex-direction: column;
+}
+
+#title, #subTitle{
+  color: #BC2326;
+}
+
+#title{
+  font-size: 30px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#subTitle{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#info{
+  color: rgb(106, 106, 106);
+  line-height: 2;
+}
+
+#contentMenu{
+  align-items: center;
+  margin: 40px auto ;
+  justify-content: center;
+  background-color: #BC2326;
+  color: aliceblue;
+  max-width: fit-content;
+  padding: 10px 60px 10px 60px;
+  border-radius: 16px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  color: #BC2326;
+  padding: 10px;
+}

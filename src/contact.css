@@ -1,0 +1,32 @@
+.page.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5em;
+  gap: 1.5em;
+  background-color: rgb(255, 251, 234);
+}
+
+.page.contact #title {
+  font-size: 36px;
+  color: #BC2326;
+  margin-bottom: 10px;
+}
+
+.page.contact #info {
+  color: rgb(106, 106, 106);
+  line-height: 1.8;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.page.contact div p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+
+.page.contact div strong {
+  color: #BC2326;
+}
