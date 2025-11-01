@@ -1,2 +1,2 @@
 # restaurant-page
-restaurant page
+Japanese Sushi Themed Restaurant Page
